@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_map"
+        android:enabled="true"
+        android:icon="@drawable/map"
+        android:title="Location Search"
+        map:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_form"
+        android:enabled="true"
+        android:icon="@drawable/form"
+        android:title="Forms"
+        map:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/navigation_hotline"
+        android:enabled="true"
+        android:icon="@drawable/hotline"
+        android:title="Hotline"
+        map:showAsAction="ifRoom"/>
+</menu>
